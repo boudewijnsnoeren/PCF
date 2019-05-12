@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="DynamicTouch.CustomControls" constructor="FileExplorer" version="0.0.1" display-name-key="DynamicTouch.FileExplorer" description-key="File Explorer from DynamicTouch" control-type="standard">
+    <property name="hidden" display-name-key="hidden" description-key="hidden" of-type-group="AllTypes" usage="bound" required="false" hidden="true" />
+    <type-group name="AllTypes">
+			<type>Whole.None</type>
+			<type>Whole.Duration</type>
+			<type>Whole.TimeZone</type>
+			<type>Whole.Language</type>
+			<type>TwoOptions</type>
+			<type>DateAndTime.DateOnly</type>
+			<type>DateAndTime.DateAndTime</type>
+			<type>Decimal</type>
+			<type>Enum</type>
+			<type>FP</type>
+			<type>Lookup.Simple</type>
+			<type>Lookup.Customer</type>
+			<type>Lookup.Owner</type>
+			<type>Lookup.PartyList</type>
+			<type>Lookup.Regarding</type>
+			<type>Multiple</type>
+			<type>Currency</type>
+			<type>OptionSet</type>
+			<type>SingleLine.Email</type>
+			<type>SingleLine.Text</type>
+			<type>SingleLine.TextArea</type>
+			<type>SingleLine.URL</type>
+			<type>SingleLine.Ticker</type>
+			<type>SingleLine.Phone</type>
+		</type-group>
+		
+    <type-group name="EntityReference">
+      <type>Lookup.Simple</type>
+      <type>Lookup.Customer</type>
+      <type>Lookup.Owner</type>
+      <type>Lookup.Regarding</type>
+    </type-group>
+    
+    <resources>
+
+      <code path="index.ts" order="1"/>
+      <css path="layout.css" order="1" />      
+      <img path='img/aac.png' /> 
+<img path='img/ai.png' /> 
+<img path='img/aiff.png' /> 
+<img path='img/avi.png' /> 
+<img path='img/bmp.png' /> 
+<img path='img/c.png' /> 
+<img path='img/cpp.png' /> 
+<img path='img/css.png' /> 
+<img path='img/csv.png' /> 
+<img path='img/dat.png' /> 
+<img path='img/dmg.png' /> 
+<img path='img/doc.png' /> 
+<img path='img/dotx.png' /> 
+<img path='img/dwg.png' /> 
+<img path='img/dxf.png' /> 
+<img path='img/eps.png' /> 
+<img path='img/exe.png' /> 
+<img path='img/flv.png' /> 
+<img path='img/gif.png' /> 
+<img path='img/h.png' /> 
+<img path='img/hpp.png' /> 
+<img path='img/html.png' /> 
+<img path='img/ics.png' /> 
+<img path='img/iso.png' /> 
+<img path='img/java.png' /> 
+<img path='img/jpg.png' /> 
+<img path='img/js.png' /> 
+<img path='img/key.png' /> 
+<img path='img/less.png' /> 
+<img path='img/mid.png' /> 
+<img path='img/mp3.png' /> 
+<img path='img/mp4.png' /> 
+<img path='img/mpg.png' /> 
+<img path='img/odf.png' /> 
+<img path='img/ods.png' /> 
+<img path='img/odt.png' /> 
+<img path='img/otp.png' /> 
+<img path='img/ots.png' /> 
+<img path='img/ott.png' /> 
+<img path='img/pdf.png' /> 
+<img path='img/php.png' /> 
+<img path='img/png.png' /> 
+<img path='img/ppt.png' /> 
+<img path='img/psd.png' /> 
+<img path='img/py.png' /> 
+<img path='img/qt.png' /> 
+<img path='img/rar.png' /> 
+<img path='img/rb.png' /> 
+<img path='img/rtf.png' /> 
+<img path='img/sass.png' /> 
+<img path='img/scss.png' /> 
+<img path='img/sql.png' /> 
+<img path='img/tga.png' /> 
+<img path='img/tgz.png' /> 
+<img path='img/tiff.png' /> 
+<img path='img/txt.png' /> 
+<img path='img/wav.png' /> 
+<img path='img/xls.png' /> 
+<img path='img/xlsx.png' /> 
+<img path='img/xml.png' /> 
+<img path='img/yml.png' /> 
+<img path='img/zip.png' /> 
+<img path='img/_blank.png' /> 
+<img path='img/_page.png' /> 
+
+
+    </resources>
+  </control>
+</manifest>

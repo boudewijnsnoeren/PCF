@@ -1,0 +1,28 @@
+.control {
+    display: inline-table;
+}
+.group {
+    color: #045999;
+    font-weight: 300;
+    cursor: pointer;
+}
+.item {
+    width: 70px;
+    height: 90px;
+    display: inline-table;
+    cursor: pointer;
+    text-align: center;
+}
+    .item:hover {
+        border: solid;
+        border-color: #045999;
+    }
+table {
+    width: 100%;
+}
+td {
+    text-align: center;
+    color: #045999;
+    word-break: break-all;
+    padding: 2px 2px 2px 2px;
+}
